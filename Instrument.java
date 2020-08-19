@@ -17,8 +17,10 @@ public interface Instrument {
      * according to the Karplus-Strong update algorithm that:
      * 
      * 1. Takes the average of the <b>first two</b> frequency samples for every
-     * string. 2. Multiplies that average by the DECAY_FACTOR set to, e.g., 0.994.
-     * 3. Adds the result to the end of the buffer. 4. Removes the sample frequency
+     * string. 
+     * 2. Multiplies that average by the DECAY_FACTOR set to, e.g., 0.994.
+     * 3. Adds the result to the end of the buffer. 
+     * 4. Removes the sample frequency
      * at the front of the buffer.
      * 
      * Note that the DECAY_FACTOR can be changed but be careful with how much you
