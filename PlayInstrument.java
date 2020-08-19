@@ -1,20 +1,18 @@
 /******************************************************************************
- * Name: 
+ * Name:
  * 
- * Description: Plays guitar strings when the user presses 
- * certain keys on the keyboard. Karplus-Strong algorithm is used to
- * synthesize the sound of a plucked string.
+ * Description: Plays guitar strings when the user presses certain keys on the
+ * keyboard. Karplus-Strong algorithm is used to synthesize the sound of a
+ * plucked string.
  * 
- * In the constructor of the class implementing Instrument,
- * you will initialize Concert A frequency as 440. Based on that,
- * you will create "Guitar 37" strings, every frequency of which 
- * will be defined as:
+ * In the constructor of the class implementing Instrument, you will initialize
+ * Concert A frequency as 440. Based on that, you will create "Guitar 37"
+ * strings, every frequency of which will be defined as:
  * 
  * frequency = CONCERT_A * Math.pow(2.0, (i - 24) / 12.0)
  * 
- * where i is within [0, 37) range. For every one of 37 strings,
- * you will allocate a "buffer" (LinkedList<Double>) the size of which
- * is defined as:
+ * where i is within [0, 37) range. For every one of 37 strings, you will
+ * allocate a "buffer" (LinkedList<Double>) the size of which is defined as:
  * 
  * size = 44100 / frequency
  * 
