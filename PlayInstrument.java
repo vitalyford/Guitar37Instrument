@@ -16,6 +16,9 @@
  * 
  * size = 44100 / frequency
  * 
+ * For example, the first 6 strings could have the following sizes:
+ * 400, 378, 357, 337, 318, 300
+ * 
  * The constructor will initialize all buffers of all strings with zeros.
  *
  ******************************************************************************/
