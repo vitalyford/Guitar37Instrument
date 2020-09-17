@@ -1,7 +1,7 @@
 public interface Instrument {
     /**
      * Initializes the sample frequency buffer with random numbers in a range of
-     * [-0.5; 0.5] for every string.
+     * [-0.5; 0.5] for the string that the user wants to pluck.
      * 
      * @param key Defines the key pressed by the user that you want to correspond to
      *            a specific string on your "Guitar 37" instrument. The easiest way
