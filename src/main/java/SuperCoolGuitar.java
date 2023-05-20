@@ -48,7 +48,7 @@ import java.util.*;
 public class SuperCoolGuitar implements Instrument {
     private LinkedList<LinkedList<Double>> guitarStrings;
 
-    SuperCoolGuitar() {
+    public SuperCoolGuitar() {
         guitarStrings = new LinkedList<>();
     }
         
