@@ -1,9 +1,11 @@
 
 public class PlayInstrument {
     public static void main(String[] args) {
-
+        // NOTE: if you rename SuperCoolGuitar.java to something else,
+        // then update the line below with the new name:
         Instrument guitar = new SuperCoolGuitar();
 
+        // DO NOT CHANGE ANYTHING AFTER THIS LINE!
         // This is an intenationally infite loop
         while (true) {
 
