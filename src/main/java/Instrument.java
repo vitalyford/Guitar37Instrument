@@ -7,6 +7,9 @@ public interface Instrument {
      * the values inside of the LinkedList<Double> to the new ones in the range of 
      * [-0.5; 0.5], thus re-initializing it with random values.
      * 
+     * You can change the range to much higher values, like [-10.0; 10.0] of type double
+     * and it will represent the volume (the higher the range, the louder it will be).
+     * 
      * @param key Defines the key (on the keyboard) pressed by the user that YOU 
      *            interpret as an index of the specific list inside
      *            of your guitarStrings variable. The easiest way to process it is 
@@ -23,7 +26,8 @@ public interface Instrument {
      *    take the first two elements from the list of each guitar string,
      *    and average those two elements.
      * 2. Multiplies that average by the DECAY_FACTOR set to, e.g., 0.994 (you can change this value
-     *    but do not change too much because the sound may not be heard).
+     *    but do not change too much because the sound may not be heard). This represents how long
+     *    the sound will play (the bigger the number, the longer you will hear the echo: try with 1.00001).
      * 3. Adds the result to the end of the buffer (the list inside of your guitarStrings).
      * 4. Removes one sample frequency at the front of the buffer (the list inside of your guitarStrings).
      * 5. Repeats for all guitarStrings.

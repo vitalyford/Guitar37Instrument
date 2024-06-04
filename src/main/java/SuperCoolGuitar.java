@@ -23,7 +23,7 @@
  * 
  * size = 44100 / frequency 
  * 
- * Note that the size is an integer value.
+ * Note that the size is an integer value. The size represents the wavelength in the sound physics.
  * 
  * In other words, every guitar string will be represented as an individual
  * list and it will have a specific size depending on the sound frequency 
